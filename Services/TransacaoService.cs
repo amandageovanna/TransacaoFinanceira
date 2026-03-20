@@ -33,6 +33,5 @@ namespace TransacaoFinanceira.Services
 
                 return $"Transacao numero {transacao.CorrelationId} foi efetivada com sucesso! Novos saldos: Conta Origem:{contaOrigem.Saldo} | Conta Destino: {contaDestino.Saldo}";
             }
-        }
-    
+        }    
 }
