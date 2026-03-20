@@ -1,0 +1,10 @@
+## . NET
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.user
+.vs/
+*.suo
+*.cache
