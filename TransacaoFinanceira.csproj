@@ -5,4 +5,9 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="TransacaoFinanceira.Tests\**\*.cs" />
+    <None Include="TransacaoFinanceira.Tests\**\*" Exclude="TransacaoFinanceira.Tests\bin\**;TransacaoFinanceira.Tests\obj\**" />
+  </ItemGroup>
+
 </Project>

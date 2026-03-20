@@ -393,6 +393,16 @@
         "build": {
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "TransacaoFinanceira/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TransacaoFinanceira.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransacaoFinanceira.dll": {}
+        }
       }
     }
   },
@@ -903,11 +913,17 @@
         "xunit.runner.visualstudio.3.1.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "TransacaoFinanceira/1.0.0": {
+      "type": "project",
+      "path": "../TransacaoFinanceira.csproj",
+      "msbuildProject": "../TransacaoFinanceira.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.NET.Test.Sdk >= 17.14.1",
+      "TransacaoFinanceira >= 1.0.0",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.4"
@@ -937,7 +953,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\TransacaoFinanceira\\TransacaoFinanceira.csproj": {
+              "projectPath": "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\TransacaoFinanceira\\TransacaoFinanceira.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
