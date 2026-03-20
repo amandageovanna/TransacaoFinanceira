@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "zXNdjwQN7BY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\TransacaoFinanceira\\TransacaoFinanceira.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amand\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\amand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\amand\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\amand\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
