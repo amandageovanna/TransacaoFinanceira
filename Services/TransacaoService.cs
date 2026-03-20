@@ -6,7 +6,6 @@ namespace TransacaoFinanceira.Services
     public class TransacaoService
     {
         private readonly IContaRepository _contaRepository;
-        private readonly object _lock = new object();
 
         public TransacaoService(IContaRepository contaRepository)
         {
@@ -15,7 +14,6 @@ namespace TransacaoFinanceira.Services
 
         public string Transferir(Transacao transacao)
         {
-            lock (_lock)
             {
                 var contaOrigem = _contaRepository.BuscarPorConta(transacao.ContaOrigem);
                 var contaDestino = _contaRepository.BuscarPorConta(transacao.ContaDestino);
@@ -36,5 +34,5 @@ namespace TransacaoFinanceira.Services
                 return $"Transacao numero {transacao.CorrelationId} foi efetivada com sucesso! Novos saldos: Conta Origem:{contaOrigem.Saldo} | Conta Destino: {contaDestino.Saldo}";
             }
         }
-    }
+    
 }
